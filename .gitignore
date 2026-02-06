@@ -1,0 +1,54 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.temp
+
+# Compressed files (if you're not using them)
+*.zip
+*.tar.gz
+*.rar
+
+# Unity WebGL Build files (too large for GitHub)
+# These will be deployed directly to Netlify
+Build/*.data
+Build/*.wasm
+
+# Large video files
+StreamingAssets/Videos/*.mp4
+
+# Local Netlify folder
+.netlify
